@@ -41,18 +41,9 @@ sudo pacman -S qemu-full fzf jq edk2-ovmf
 sudo dnf install qemu-kvm qemu-img fzf jq edk2-ovmf-tools
 ```
 
-## Структура проекта
-```
-stable/
-├── stable1/qemu-launch.sh    # Стабильная версия 1
-├── stable2/qemu-launch.sh    # Стабильная версия 2  
-└── stable3/qemu-launch.sh    # Актуальная стабильная версия
-```
-
 ## Быстрый старт
 ```bash
-# Используйте актуальную стабильную версию
-bash stable/stable3/qemu-launch.sh
+bash qemu-launch.sh
 ```
 
 ## Основные возможности
